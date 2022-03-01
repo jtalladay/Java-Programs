@@ -37,7 +37,7 @@ class guess{
       }
       count++;
     }
-    
+
     System.out.print("You got it in " + count + " guesses.");
 
       }
