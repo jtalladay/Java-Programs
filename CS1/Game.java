@@ -3,8 +3,8 @@
 // Class defining a die
 class Die {
   // State of the die; face on top
-  private int face_Value; // this is an instance variable 
-  public static final int max = 6;
+  private int face_Value; // this is an instance variable
+  public static final int MAX = 6;
   //Constructor for Die class: no "parameters" no passed in information
   public Die (){
     face_Value = 1;
@@ -23,7 +23,7 @@ class Die {
 
   }
   public void set_Value (int new_Value){
-    if (new_Value >= 1 && new_Value <= max){
+    if (new_Value >= 1 && new_Value <= MAX){
       face_Value = new_Value;
     }
   }

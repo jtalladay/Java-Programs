@@ -70,7 +70,8 @@ class SpaceLasers{
           System.out.print("Move " + total_Die + " spaces, and take ");
           System.out.println("another turn.");
           counter++;
-        } else if ((die_1 == 1 && die_2 == 3) || (die_1 == 3 && die_2 == 1)){
+        }//GRADED you can change this condition to (die_1 + die_2 == 4) 
+        }else if ((die_1 == 1 && die_2 == 3) || (die_1 == 3 && die_2 == 1)){
           System.out.println("Draw an action card and move " + total_Die +
                                                       " spaces.");
         } else if (die_1 != die_2){
